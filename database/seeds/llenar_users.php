@@ -16,7 +16,7 @@ class llenar_users extends Seeder
                 'name' => 'Eduardo ' . $i,
                 'email' => 'eduardo'.$i.'@hotmail.com',
                 'password' => 'rojo200'.$i,
-                'fecha_nacimiento' => '2023-06-06'
+                'fecha_nacimiento' => '1987-06-06'
             ));
         }
 
