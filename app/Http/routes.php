@@ -15,5 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::group(['middleware' => ['cors']], function () {
+    Route::controller( 'usuarios','UserController');
+});
 
-Route::controller('usuarios','UserController');
+
